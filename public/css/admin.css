@@ -1,0 +1,171 @@
+.speedLabel{
+    position: relative;
+    top: 150px;
+}
+.surge-form textarea{
+	display: block;
+	margin-bottom: 30px;
+	width: 400px;
+	height: 350px;
+}
+
+.table{
+	max-width: 100%;
+}
+
+#map{
+    position: fixed !important;
+    /*padding-bottom: 56.25%; !* Ratio 16:9 ( 100%/16*9 = 56.25% ) *!*/
+    width: 45%;
+    height: 80%;
+}
+#map > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.table-left-frame th{
+    font-size: 10px;
+}
+
+.table-left-frame{
+    font-size: 13px;
+}
+
+.table-left-frame td, .table-left-frame th{
+    vertical-align: middle!important;
+    padding: 3px!important;
+}
+
+.table-hover tr:hover{
+    background: #ccc!important;
+    cursor: pointer;
+}
+
+.top-buffer { margin-top:20px; }
+
+.shiftTable{
+    overflow-x: scroll;
+}
+.changeField{
+    height: 230px;
+}
+.changeField div{
+    width: 50%;
+    margin-top: 10px;
+}
+.changeField input,
+.changeField select{
+    float: right;
+    width: 50%;
+}
+
+/*status table background color*/
+/*Dispatched: '#0012ff',
+  Open: '#ff0000',
+  Accepted: '#fff000',
+  DrivingClient: '#20ce5e',
+  Offline: '#000',
+  Arrived: '#ff9600'*/
+.Open{
+    background-color: rgba(255, 0, 0, 0.5) !important;
+}
+.Dispatched{
+    background-color: rgba(0, 18, 255, 0.5) !important;
+}
+.Accepted{
+    background-color: rgba(255, 240, 0, 0.5) !important;
+}
+.DrivingClient{
+    background-color: rgba(32, 206, 94, 0.5) !important;
+}
+.Offline{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.Arrived{
+    background-color: rgba(255, 150, 0, 0.5) !important;
+}
+.labels {
+    color: white;
+    background-color: red;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    width: 30px;
+    white-space: nowrap;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.status-table,
+.status-table div{
+    padding: 0;
+}
+/*modal style*/
+
+.lock_screen_main{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.lock_screen_modal{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    color: #555;
+    background-color: #f8f8f8;
+    display: none;
+    border: solid 2px #e7e7e7;
+    text-align: center;
+    top: 40%;
+    left: 40%;
+}
+
+.lock_screen_modal h3{
+    margin-top: 50px;
+}
+@media (max-width: 1280px) {
+    #map{
+        position: inherit !important;
+        width: 100%;
+        height: 65%;
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 1200px) {
+    .admin_map_online{
+        width: 46% !important;
+        float: right;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

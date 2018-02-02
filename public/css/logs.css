@@ -1,0 +1,29 @@
+
+#file_list{
+    margin: 20px 30px;
+    width: 260px;
+    float: left;
+}
+
+#file_list ul{
+    width: 260px;
+}
+
+#file_list li{
+    list-style: none;
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid #e7e7e7;
+}
+#file_list .active{
+    background-color: #e7e7e7;
+}
+
+/**/
+#file_listing{
+    margin: 20px 30px;
+    width: 70%;
+    min-height: 100px;
+    border: 1px solid #e7e7e7;
+    float: left;
+}
